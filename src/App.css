@@ -1,0 +1,30 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+.background{
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(2px);
+  position: relative;
+}
+.box{
+  width:450px;
+  height:700px;
+  z-index: 6;
+  top: 2%;
+  left:35%;
+  position: absolute;
+  border:4px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.395);
+}
+.heading h1,img{
+  text-align: center;
+  color:yellow;
+  font-size: 45px;
+}

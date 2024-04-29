@@ -1,0 +1,382 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  .background{
+    width:100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    position: relative;
+  }
+  .box{
+    top:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 6;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.175);
+  }
+  .box h1{
+    color:white;
+    font-size: 49px;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-weight: 900;
+  }
+  .box1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .input{
+    width:700px;
+    height:60px;
+    border:2px solid black;
+    margin-top: 140px;
+    border-radius: 20px;
+    background-color:white;
+    border: none;
+    
+  }
+  input{
+   border: none;
+   width:70%;
+   height:100%;
+   border-radius: 10px;
+   font-size: 30px;
+   padding: 10px;
+  }
+  .input h1{
+    margin-top: 30px;
+    font-size: 4rem;
+    text-transform: capitalize;
+  }
+  button{
+    background-color: rgb(0, 0, 184);
+    font-size: 25px;
+    width: 30%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    padding-top: 4px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .box1 img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  @media(max-width:1387px){
+    .background{
+      height:102vh;
+     }
+     .box{
+      height:102vh;
+     }
+  }
+  @media(max-width:1369px){
+    .background{
+      height:120vh;
+     }
+     .box{
+      height:120vh;
+     }
+  }
+@media(max-width:1296px){
+  .input{
+    width:650px;
+  }
+  .box1 img{
+    width:350px;
+    height:350px;
+  }
+  .background{
+    height:140vh;
+   }
+   .box{
+    height:140vh;
+   }
+}
+@media (max-width:1154px){
+  .input{
+    width:550px;
+  }
+  .box1 img{
+    width:300px;
+    height:300px;
+  }
+  .background{
+    height:140vh;
+   }
+   .box{
+    height:140vh;
+   }
+}
+@media(max-width:1140px){
+  .background{
+    height:170vh;
+   }
+   .box{
+    height:170vh;
+   }
+}
+@media(max-width:1116px){
+  .background{
+    height:160vh;
+   }
+   .box{
+    height:160vh;
+   }
+}
+@media (max-width:1039px){
+  .input{
+    width:500px;
+  }
+  .box1 img{
+    width:300px;
+    height:300px;
+  }
+  .background{
+    height:170vh;
+   }
+   .box{
+    height:170vh;
+   }
+}
+@media(max-width:1025px){
+  .background{
+    height:210vh;
+   }
+   .box{
+    height:210vh;
+   }
+}
+@media(max-width:915px){
+  .background{
+    height:140vh;
+   }
+   .box{
+    height:140vh;
+   }
+}
+@media (max-width:890px){
+  .input{
+    width:480px;
+    margin-top: 100px;
+  }
+  .box1 img{
+    width:300px;
+    height:300px;
+  }
+  .background{
+    height:190vh;
+   }
+   .box{
+    height:190vh;
+   }
+}
+@media(max-width:855px){
+  .background{
+    height:200vh;
+   }
+   .box{
+    height:200vh;
+   }
+}
+@media(max-width:821px){
+  .background{
+    height:170vh;
+   }
+   .box{
+    height:170vh;
+   }
+}
+@media (max-width:816px){
+  .input{
+    width:390px;
+    margin-top: 100px;
+  }
+  .box1 img{
+    width:300px;
+    height:300px;
+  }
+  button{
+    width:30%;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .background{
+    height:210vh;
+   }
+   .box{
+    height:210vh;
+   }
+}
+@media(max-width:769px){
+  .background{
+    height:190vh;
+   }
+   .box{
+    height:190vh;
+   }
+}
+@media(max-width:735px){
+  .input{
+    width:600px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 45px;
+  }
+  .box1 img{
+    margin-top: 50px;
+  }
+}
+@media(max-width:620px){
+  .input{
+    width:500px;
+    margin-top: 40px;
+  }
+}
+@media(max-width:549px){
+  .background{
+    height:260vh;
+   }
+   .box{
+    height:260vh;
+   }
+}
+@media(max-width:525px){
+  .input{
+    width:430px;
+    margin-top: 40px;
+  }
+}
+@media(max-width:468px){
+  .input{
+    width:410px;
+    margin-top: 40px;
+  }
+  .box1 img{
+    margin-top: 70px;
+    width: 250px;
+    height:250px;
+  }
+}
+@media(max-width:439px){
+  .input{
+    width:390px;
+    margin-top: 40px;
+  }
+  .background{
+    height:200vh;
+   }
+   .box{
+    height:200vh;
+   }
+}
+@media(max-width:418px){
+  .input{
+    width:350px;
+    margin-top: 40px;
+  }
+  .background{
+    height:205vh;
+   }
+   .box{
+    height:205vh;
+   }
+}
+@media(max-width:404px){
+  .background{
+    height:250vh;
+   }
+   .box{
+    height:250vh;
+   }
+}
+@media(max-width:395px){
+  .input{
+    width:340px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 35px;
+  }
+  .background{
+    height:230vh;
+   }
+   .box{
+    height:230vh;
+   }
+}
+@media(max-width:376px){
+  .background{
+    height:270vh;
+   }
+   .box{
+    height:270vh;
+   }
+}
+@media(max-width:358px){
+  .input{
+    width:325px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 35px;
+  }
+  button{
+    font-size: 15px;
+  }
+  .background{
+    height:210vh;
+   }
+   .box{
+    height:210vh;
+   }
+}
+@media(max-width:336px){
+  .input{
+    width:290px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 35px;
+  }
+  button{
+    font-size: 15px;
+  }
+}
+@media(max-width:310px){
+  .input{
+    width:290px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 30px;
+  }
+  button{
+    font-size: 15px;
+  }
+}
+@media(max-width:299px){
+  .input{
+    width:280px;
+    margin-top: 40px;
+  }
+  .box h1{
+    font-size: 30px;
+  }
+  button{
+    font-size: 10px;
+  }
+}
